@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - My Store</title>
     <link rel="stylesheet" href="{% static 'products/product-detail.css' %}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
@@ -23,9 +24,9 @@
     <header class="banner">
         <a href="{% url 'home' %}" class="breadcrumb-link">Home</a>
         <span class="breadcrumb-separator"> &gt; </span>
-        <a href="{% url 'all_products' %}" class="breadcrumb">Shop</a>
-        <span class="breadcrumb-separator"> &gt; </span>
-        <p class="product-title"> | {{ product.name }}</p>
+        <a href="{% url 'all_products' %}" class="breadcrumb-line">Shop</a>
+        <span class="breadcrumb-separator"> &gt;</span>
+        <p class="title">{{ product.name }}</p>
     </header>
     <section class="product-container">
         <div class="product-image">
@@ -45,9 +46,9 @@
                 {% csrf_token %}
             <div class="quantity-add-to-cart">
                 <div class="quantity-section">
-                    <button type="button" class="quantity-btn minus">-</button>
-                    <input type="number" name="quantity" min="1" value="1" class="quantity-input" />
-                    <button type="button" class="quantity-btn plus">+</button>
+                    <button type="button" class="quantity-btn minus" onclick="decreaseQuantity()">-</button>
+                    <input name="quantity" min="1" value="1" class="quantity-input" />
+                    <button type="button" class="quantity-btn plus" onclick="increaseQuantity()">+</button>
                 </div>
                 <a href="{% url 'add_to_cart' product.id %}"><button class="add-to-cart">Add to Cart</button></a>
             </div>
@@ -78,5 +79,25 @@
     <footer class="footer">
         <p>&copy; 2024 Furniro. All rights reserved.</p>
     </footer>
+
+    <script>
+        $(document).ready(function() {
+            $('.plus').click(function() {
+                var $input = $(this).siblings('.quantity-input');
+                var currentVal = parseInt($input.val());
+                if (!isNaN(currentVal)) {
+                    $input.val(currentVal + 1);
+                }
+            });
+
+            $('.minus').click(function() {
+                var $input = $(this).siblings('.quantity-input');
+                var currentVal = parseInt($input.val());
+                if (!isNaN(currentVal) && currentVal > 1) {
+                    $input.val(currentVal - 1);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
