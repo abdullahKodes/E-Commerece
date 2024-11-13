@@ -5,20 +5,20 @@ This is a full-featured e-commerce application built with Django. The project in
 
 ## Features
 
-**Categorized Products:** User can see Product by Categories.
-**Product Listing:**  Users can browse all the listed products.
-**Product Detail:**  Users can see the detail of the product like description and also can see the related products.
-**Shopping Cart:** Users can add items to the cart, adjust quantities, and remove items.
-**Checkout Process:** A streamlined checkout with order summary, user details, and payment method options.
-**Order Management:** Orders are saved, and stock levels are updated upon purchase.
-**Responsive Design:** User-friendly across various screen sizes.
+- **Categorized Products:** User can see Product by Categories.
+- **Product Listing:**  Users can browse all the listed products.
+- **Product Detail:**  Users can see the detail of the product like description and also can see the related products.
+- **Shopping Cart:** Users can add items to the cart, adjust quantities, and remove items.
+- **Checkout Process:** A streamlined checkout with order summary, user details, and payment method options.
+- **Order Management:** Orders are saved, and stock levels are updated upon purchase.
+- **Responsive Design:** User-friendly across various screen sizes.
 
 
 ## Technologies Used
 
-**Django:** Backend framework for handling data and serving the site.
-**HTML/CSS:** Frontend structure and styling.
-**JavaScript:** For interactive elements, such as quantity selectors.
+- **Django:** Backend framework for handling data and serving the site.
+- **HTML/CSS:** Frontend structure and styling.
+- **JavaScript:** For interactive elements, such as quantity selectors.
 
 
 ## Project Structure
