@@ -16,7 +16,7 @@ def checkout(request):
             order.user = request.user
             order.total_price = total_price
             order.save()
-            order.cart.set(cart_items)
+            order.cart. set(cart_items)
 
             for item in cart_items:
                 item.product.stock -= item.quantity

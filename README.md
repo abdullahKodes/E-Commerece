@@ -57,5 +57,10 @@ Each app has its own set of models. Here’s a summary:
 **Product:** Model to manage product details.
 **Category:** Model for product categories.
 **Cart:** Manages items in the user's cart.
-**Order:** Handles user orders and checkout information.
+**Checkout:** Handles user orders and checkout information.
 
+
+## Screenshots
+
+**Home page**
+![Homepage Screenshot](screenshots/home-page.png)

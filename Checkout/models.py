@@ -14,7 +14,7 @@ class Checkout(models.Model):
     postal_code = models.CharField(max_length=20)
     phone = models.IntegerField()
     email = models.EmailField(null=True, blank=True)
-    cart = models.ManyToManyField(Cart)
+    cart = models.ManyToManyField(Cart, related_name='order')
     total_price = models.DecimalField(max_digits=10, decimal_places=2)
     created_on = models.DateTimeField(auto_now_add=True)
 
