@@ -24,31 +24,31 @@ This is a full-featured e-commerce application built with Django. The project in
 ## Project Structure
 
 .
-    ├── Cart/
-    │   ├── migrations/
-    │   ├── templates/
-    │   │   └── cart/
-    │   └── static/
-    │       └── cart/
-    ├── Categories/
-    │   ├── migrations/
-    │   ├── templates/
-    │   │   └── categories/
-    │   └── static/
-    │       └── categories/
-    ├── Product/
-    │   ├── migrations/
-    │   ├── templates/
-    │   │   └── product/
-    │   └── static/
-    │       └── product/
-    ├── Checkout/
-    │   ├── migrations/
-    │   ├── templates/
-    │   │   └── checkout/
-    │   └── static/
-    │       └── checkout/
-    └── manage.py
+- ├── Cart/
+- │   ├── migrations/
+- │   ├── templates/
+- │   │   └── cart/
+- │   └── static/
+- │       └── cart/
+- ├── Categories/
+- │   ├── migrations/
+- │   ├── templates/
+- │   │   └── categories/
+- │   └── static/
+- │       └── categories/
+- ├── Product/
+- │   ├── migrations/
+- │   ├── templates/
+- │   │   └── product/
+- │   └── static/
+- │       └── product/
+- ├── Checkout/
+- │   ├── migrations/
+- │   ├── templates/
+- │   │   └── checkout/
+- │   └── static/
+- │       └── checkout/
+- └── manage.py
 
 
 ## Models
