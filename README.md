@@ -64,3 +64,31 @@ Each app has its own set of models. Here’s a summary:
 
 **Home page**
 ![Homepage Screenshot](screenshots/home-page.png)
+
+**All Products**
+![All Products Screenshot](screenshots/all-products.png)
+
+**Categorized Products**
+![Categorizes Screenshot](screenshots/categorized-products.png)
+
+**Product Detail**
+![product detail Screenshot](screenshots/product-detail.png)
+
+**Cart**
+![Cart Screenshot](screenshots/cart-detail.png)
+
+**Checkout**
+![Checkout Screenshot](screenshots/checkout-page.png)
+
+**Order Success**
+![Order Screenshot](screenshots/order-success.png)
+
+**Contact Us**
+![Contact Screenshot](screenshots/contact-us.png)
+
+
+## Future Improvments
+
+**Payment Gateway Integration**: Add an external payment gateway for secure payments.
+**Product Recommendations:** Suggest similar products to users based on their browsing history.
+**Order Tracking:** Allow users to track the status of their orders.
