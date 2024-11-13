@@ -24,71 +24,71 @@ This is a full-featured e-commerce application built with Django. The project in
 ## Project Structure
 
 .
-├── Cart/
-│   ├── migrations/
-│   ├── templates/
-│   │   └── cart/
-│   └── static/
-│       └── cart/
-├── Categories/
-│   ├── migrations/
-│   ├── templates/
-│   │   └── categories/
-│   └── static/
-│       └── categories/
-├── Product/
-│   ├── migrations/
-│   ├── templates/
-│   │   └── product/
-│   └── static/
-│       └── product/
-├── Checkout/
-│   ├── migrations/
-│   ├── templates/
-│   │   └── checkout/
-│   └── static/
-│       └── checkout/
-└── manage.py
+- ├── Cart/
+- │   ├── migrations/
+- │   ├── templates/
+- │   │   └── cart/
+- │   └── static/
+- │       └── cart/
+- ├── Categories/
+- │   ├── migrations/
+- │   ├── templates/
+- │   │   └── categories/
+- │   └── static/
+- │       └── categories/
+- ├── Product/
+- │   ├── migrations/
+- │   ├── templates/
+- │   │   └── product/
+- │   └── static/
+- │       └── product/
+- ├── Checkout/
+- │   ├── migrations/
+- │   ├── templates/
+- │   │   └── checkout/
+- │   └── static/
+- │       └── checkout/
+- └── manage.py
 
 
 ## Models
 
 Each app has its own set of models. Here’s a summary:
-**Product:** Model to manage product details.
-**Category:** Model for product categories.
-**Cart:** Manages items in the user's cart.
-**Checkout:** Handles user orders and checkout information.
+- **Product:** Model to manage product details.
+- **Category:** Model for product categories.
+- **Cart:** Manages items in the user's cart.
+- **Checkout:** Handles user orders and checkout information.
 
 
 ## Screenshots
 
-**Home page**
+- **Home page**
 ![Homepage Screenshot](screenshots/home-page.png)
 
-**All Products**
+- **All Products**
 ![All Products Screenshot](screenshots/all-products.png)
 
-**Categorized Products**
+- **Categorized Products**
 ![Categorizes Screenshot](screenshots/categorized-products.png)
 
-**Product Detail**
+- **Product Detail**
 ![product detail Screenshot](screenshots/product-detail.png)
 
-**Cart**
+- **Cart**
 ![Cart Screenshot](screenshots/cart-detail.png)
 
-**Checkout**
+- **Checkout**
 ![Checkout Screenshot](screenshots/checkout-page.png)
 
-**Order Success**
+- **Order Success**
 ![Order Screenshot](screenshots/order-success.png)
 
-**Contact Us**
+- **Contact Us**
 ![Contact Screenshot](screenshots/contact-us.png)
 
 
 ## Future Improvments
 
-**Payment Gateway Integration**: Add an external payment gateway for secure payments.
-**Product Recommendations:** Suggest similar products to users based on their browsing history.
-**Order Tracking:** Allow users to track the status of their orders.
+- **Payment Gateway Integration**: Add an external payment gateway for secure payments.
+- **Product Recommendations:** Suggest similar products to users based on their browsing history.
+- **Order Tracking:** Allow users to track the status of their orders.
